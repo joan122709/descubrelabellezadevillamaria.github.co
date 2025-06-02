@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descubre la belleza de Villamaría</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #2c3e50;
+    }
+    header {
+      background-image: url('villamaria-header.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+    nav {
+      background-color: #1a252f;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 1rem;
+      display: block;
+    }
+    nav a:hover {
+      background-color: #34495e;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .vereda {
+      margin-bottom: 4rem;
+    }
+    .vereda img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+    iframe {
+      width: 100%;
+      height: 350px;
+      border: none;
+      margin-top: 1rem;
+    }
+    footer {
+      text-align: center;
+      background-color: #1a252f;
+      color: white;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Descubre la belleza de Villamaría</h1>
+    <p>Un recorrido por las veredas Gallinazo, Miraflores y La Floresta</p>
+  </header>
+
+  <nav>
+    <a href="#gallinazo">Gallinazo</a>
+    <a href="#miraflores">Miraflores</a>
+    <a href="#lafloresta">La Floresta</a>
+  </nav>
+
+  <section id="gallinazo" class="vereda">
+    <h2>Vereda Gallinazo</h2>
+    <p>La vereda Gallinazo es reconocida por su entorno natural y su vocación turística. Es hogar de reconocidos centros termales como <strong>Tierra Viva</strong> y <strong>El Otoño</strong>, que ofrecen servicios de relajación, spa y alojamiento en medio de montañas y aguas termales naturales.</p>
+    <p>También se encuentra <strong>Glamping Mágica Luna</strong>, una experiencia de alojamiento en domos geodésicos rodeados de naturaleza, perfecta para el descanso y el ecoturismo.</p>
+    <p>La vía hacia Gallinazo es completamente pavimentada y se puede acceder fácilmente desde el parque principal de Villamaría en transporte público o privado.</p>
+    <img src="gallinazo.jpg" alt="Paisaje en la vereda Gallinazo">
+    <iframe src="https://www.google.com/maps/embed?..."></iframe>
+  </section>
+
+  <section id="miraflores" class="vereda">
+    <h2>Vereda Miraflores</h2>
+    <p>Miraflores es una vereda de tradición campesina y religiosa. Hace parte de la <strong>Ruta de la Fe</strong>, un recorrido espiritual y cultural que incluye parroquias rurales, senderos naturales y eventos religiosos.</p>
+    <p>Sus paisajes verdes, cafetales y montañas convierten a Miraflores en un destino ideal para quienes buscan tranquilidad y conexión con la vida rural. El camino desde el casco urbano incluye vistas panorámicas y zonas agrícolas activas.</p>
+    <img src="miraflores.jpg" alt="Paisaje en la vereda Miraflores">
+    <iframe src="https://www.google.com/maps/embed?..."></iframe>
+  </section>
+
+  <section id="lafloresta" class="vereda">
+    <h2>Vereda La Floresta</h2>
+    <p>Ubicada a corta distancia del casco urbano, La Floresta es una vereda que combina el encanto del campo con la cercanía a la ciudad. Es conocida por su clima templado, sus zonas residenciales campestres y su belleza paisajística.</p>
+    <p>Muchos visitantes disfrutan de caminatas por senderos naturales, visitas a fincas cafeteras y hospedajes rurales con vista a los valles de Caldas.</p>
+    <p>La ruta es completamente transitable en carro y motocicleta, y se puede acceder en menos de 30 minutos desde el centro de Villamaría.</p>
+    <img src="lafloresta.jpg" alt="Zona rural en La Floresta">
+    <iframe src="https://www.google.com/maps/embed?..."></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Descubre la belleza de Villamaría | Diseño y desarrollo local</p>
+  </footer>
+</body>
+</html>
