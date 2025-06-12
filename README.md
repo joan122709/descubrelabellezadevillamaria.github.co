@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Veredas de Villamaría</title>
+    <style>
+        :root {
+            --verde-oscuro: #1e5f3d;
+            --verde-claro: #2e8b57;
+            --gris-fondo: #f4f4f4;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #2e8b57 0%, #1e5f3d 70%, #a3c9a8 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: var(--verde-claro);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .logo {
+            width: 120px;
+            height: auto;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            background: var(--verde-oscuro);
+            padding: 0.75rem 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: opacity 0.2s ease-in-out;
+        }
+        nav a:hover {
+            opacity: 0.7;
+        }
+        section {
+            padding: 2rem 1rem;
+            max-width: 1100px;
+            margin: 0 auto 3rem auto;
+            background: rgba(255, 255, 255, 0.85);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .vereda h2 {
+            color: var(--verde-oscuro);
+        }
+        /* NUEVO: contenedor para imagen de ubicación */
+        .ubicacion {
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .ubicacion img {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+        }
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .galeria img {
+            width: 100%;
+            border-radius: 8px;
+            aspect-ratio: 4/3;
+            object-fit: cover;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        .galeria img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background: var(--verde-claro);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.pgn.png" alt="Descubre la belleza de Villamaría" class="logo" />
+        <h1>DESCUBRE LA BELLEZA DE VILLAMARIA</h1>
+        <p>Villamaria una experencia que puedes explorar</p>
+    </header>
+    <nav>
+        <a href="#gallinazo">Gallinazo</a>
+        <a href="#miraflores">Miraflores</a>
+        <a href="#floresta">Floresta</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <!-- ================= Gallinazo ================= -->
+    <section id="gallinazo" class="vereda">
+        <h2>Gallinazo</h2>
+        <p>
+            La vereda Gallinazo se asienta a <strong>2.350 m s. n. m.</strong> en la vertiente
+            nororiental de Villamaría, entre la <em>Reserva Forestal Río Blanco</em> y el límite
+            con Manizales. Fundada hacia 1910 como caserío minero, hoy cuenta con
+            aproximadamente <strong>412 habitantes</strong> distribuidos en 103 viviendas. Su
+            privilegiada altura ofrece temperaturas frescas de páramo bajo y paisajes
+            montañosos cubiertos por bosques y pastizales. La economía combina
+            <strong>ganadería lechera</strong> de altura, agricultura diversificada (papa,
+            hortalizas) y un creciente <strong>turismo de naturaleza</strong>: senderos
+            interpretativos por humedales, avistamiento de más de 340 especies de aves
+            y miradores sobre el cañón del río Blanco. Sin embargo, el rápido avance
+            de la expansión urbana de Manizales plantea retos de conservación y
+            ordenamiento ambiental.
+        </p>
+
+        <!-- Imagen de ubicación Gallinazo -->
+        <div class="ubicacion">
+            <img src="gallinazo.pgn.png" alt="Mapa o ubicación de Gallinazo" />
+        </div>
+
+        <div class="ubicacion">
+            <img src="Ga.jpg" alt=                                  />
+            <img src="Gb.jpg" alt=                                 />
+            <img src="Gc.jpg" alt=                                />
+        </div>
+    </section>
+
+    <!-- ================= Miraflores ================= -->
+    <section id="miraflores" class="vereda">
+        <h2>Miraflores</h2>
+        <p>
+            Ubicada a <strong>23 km</strong> de Villamaría, la vereda Miraflores disfruta de un
+            <strong>clima templado</strong> entre 17 y 18 °C gracias a su altitud de 1.500–1.600 m s. n. m.
+            Su nombre evoca la riqueza de <em>cartuchos</em>, <em>azucenas</em> y otras flores
+            silvestres que colorean sus laderas. Sus cerca de <strong>288 habitantes</strong>
+            cultivan café de alta calidad, plátano y una variada huerta de hortalizas y
+            frutales, complementando la crianza de aves y cerdos. Dos quebradas —Las
+            Dantas y San Juan— enmarcan el territorio y nutren microcuencas de agua
+            cristalina. Miradores rurales, fincas cafetaleras con procesos de
+            beneficio artesanal y rutas de ciclomontañismo convierten a Miraflores en
+            un destino ideal para el turismo panorámico y experiencias agroturísticas.
+        </p>
+
+        <!-- Imagen de ubicación Miraflores -->
+        <div class="ubicacion">
+            <img src="miraflores.pgn.png" alt="Mapa o ubicación de Miraflores" />
+        </div>
+
+        <div class="galeria">
+            <img src="Ma.jpg" alt=                                   />
+            <img src="Mb.jpg" alt=                                  />
+            <img src="Mc.jpg" alt=                                 />
+        </div>
+    </section>
+
+    <!-- ================= Floresta ================= -->
+    <section id="floresta" class="vereda">
+        <h2>Floresta</h2>
+        <p>
+            Situada al nor-occidente de Villamaría y a pocos minutos del casco urbano,
+            la vereda <strong>La Floresta</strong> hace honor a su nombre con cultivos de flores
+            ornamentales que le han valido al municipio el apelativo de «Jardín de
+            Colombia». A unos <strong>1.900 m s. n. m.</strong>, esta zona hortofrutícola media
+            alberga alrededor de <strong>500 habitantes</strong> y 105 viviendas. Los suelos fértiles
+            producen café, hortalizas de clima medio y exuberantes cultivos florales
+            (crisantemos, astromelias). Tres quebradas —Tejares, La Floresta y La
+            María— surcan el paisaje y sostienen nacimientos de agua usados para
+            consumo y riego. Sus rutas rurales permiten caminatas familiares entre
+            cultivos, visitas a fincas turísticas como Mandalay y La Alquería, y
+            miradores naturales con vistas privilegiadas de la Cordillera Central.
+        </p>
+
+        <!-- Imagen de ubicación Floresta -->
+        <div class="ubicacion">
+            <img src="floresta.pgn.png" alt="Mapa o ubicación de Floresta" />
+        </div>
+
+        <div class="galeria">
+            <img src="Fa.jpg" alt=                                   />
+            <img src="Fb.jpg" alt=                                  />
+            <img src="Fc.jpg" alt=                                 />
+        </div>
+    </section>
+
+    <!-- ================= Contacto ================= -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Te interesa conocer más sobre estas veredas o programar una visita guiada? Escríbenos:</p>
+        <ul>
+            <li><strong>Nombre:</strong> JOAN GABRIEL ARANGO</li>
+            <li><strong>Email:</strong> descubrelabellezadevillamaria@gmail.com</li>
+            <li><strong>Instragram:</strong> descubre_villamaria</li>
+            <li><strong>Telefono:</strong> 3122396489</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Veredas de Villamaría. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
